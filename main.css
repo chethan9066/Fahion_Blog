@@ -1,0 +1,215 @@
+
+.navbar {
+
+    overflow: hidden;
+    background-color: #333;
+    font-family:Cooper;
+
+
+
+
+}
+
+#f:hover{background-color: black;}
+#f { font-size: 25px;}
+#s{margin-left: 90%;}
+
+.navbar a {
+
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 23px 16px;
+}
+
+.dropdown {
+
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+
+    font-size: 16px;
+    font-family: cooper;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 23px 16px;
+    background-color: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+
+    int: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: solid black;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ #btnl{ background:RGB(255, 255, 255);}
+ .myslide{display: none;}
+
+/*text over image*/
+.img {
+     position: relative;
+     text-align: center;
+     color: white;
+     font-style: bold;
+     border-radius: 20px;
+   }
+
+ .centered {
+
+     position:absolute;
+     top: 65%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 30px;
+     font-family:solid cursive;
+     color: white;
+     text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+ }
+
+
+#li1:hover {
+           color: blue;
+}
+
+#p1{ font-style: bold; font-size:20px;}
+
+/*scroll top button*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 110; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 20px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: blue; /* Add a dark-grey background on hover */
+}
+
+/*Today's top story div1*/
+.div1{
+     font-size: 16px;
+     font-family: Footlight MT;
+}
+h3 {margin-top:40px;
+  display:flex; font-size:33px;}
+h3:before, h3:after {
+  color:black;
+  content:' ';
+  flex:10;
+  border-bottom:groove;
+  margin:auto;
+  box-shadow: 3 ; /* ou 0 1px si border-style:ridge */
+}
+
+.imgdiv{
+  margin-left: 20%;
+
+}
+.divmail{
+  font-family: cursive;
+  font-size: 16px;
+
+
+ }
+/*submit button*/
+ #sub{
+   background-color: black;
+   color:white;
+   height: 50;
+   width: 150;
+ }
+
+ #sub:hover{ background:linear-gradient(to top right, #00ff00 0%, #0000ff 100%);}
+
+ #email{
+   height: 40;
+   width: 300;
+ }
+/*watches*/
+.animate-fading{animation:fading 5s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#watch1{background: black;
+        color:white;
+        }
+h4{
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+
+#imgw{margin-left:15% }
+
+#w{text-align: left;
+   font-size: 20px;}
+
+#wa:hover{color:tomato;}
+#ws{
+  text-align: left;
+  font-size: 20px;
+}
+
+#sub1{
+  background-color: white;
+  color:black;
+  font-family: solid cursive;
+  height: 50;
+  width: 150;
+  margin-right:90%;
+  border:20px 20px 20px 20px;
+  border-color: black;
+}
+
+
+#sub1:hover{ background:black; color:white;}
+
+#p2{
+
+  font-family:Gabriola;
+  font-size: 30px;
+}
+
+#img1{
+  margin-right:-2%
+}
